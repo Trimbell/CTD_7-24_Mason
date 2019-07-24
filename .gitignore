@@ -3,6 +3,7 @@
 
 # User-specific stuff
 .idea/**/workspace.xml
+.idea/**/uiDesigner.xml
 .idea/**/tasks.xml
 
 # Gradle
