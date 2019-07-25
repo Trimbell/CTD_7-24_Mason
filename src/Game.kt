@@ -46,7 +46,7 @@ fun Int.convertRPS(): String {
 // Ask user if they would like to play again
 fun askPlayAgain(): Boolean {
     println("Would you like to play again? [Y/n] ")
-    val userInput = readLine()
+    val userInput = readLine()?.toLowerCase()
 
     return if (userInput.isNullOrBlank()) true
     else userInput.startsWith('y')
